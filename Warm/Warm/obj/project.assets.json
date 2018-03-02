@@ -12554,13 +12554,13 @@
     },
     "Warm.Models/1.0.0": {
       "type": "project",
-      "path": "../Models/Warm.Models.csproj",
-      "msbuildProject": "../Models/Warm.Models.csproj"
+      "path": "../Warm.Models/Warm.Models.csproj",
+      "msbuildProject": "../Warm.Models/Warm.Models.csproj"
     },
     "Warm.Repository/1.0.0": {
       "type": "project",
-      "path": "../DBRepository/Warm.Repository.csproj",
-      "msbuildProject": "../DBRepository/Warm.Repository.csproj"
+      "path": "../Warm.Repository/Warm.Repository.csproj",
+      "msbuildProject": "../Warm.Repository/Warm.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12613,11 +12613,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Warm\\Warm\\Models\\Warm.Models.csproj": {
-              "projectPath": "D:\\Warm\\Warm\\Models\\Warm.Models.csproj"
+            "D:\\Warm\\Warm\\Warm.Models\\Warm.Models.csproj": {
+              "projectPath": "D:\\Warm\\Warm\\Warm.Models\\Warm.Models.csproj"
             },
-            "D:\\Warm\\Warm\\DBRepository\\Warm.Repository.csproj": {
-              "projectPath": "D:\\Warm\\Warm\\DBRepository\\Warm.Repository.csproj"
+            "D:\\Warm\\Warm\\Warm.Repository\\Warm.Repository.csproj": {
+              "projectPath": "D:\\Warm\\Warm\\Warm.Repository\\Warm.Repository.csproj"
             }
           }
         }

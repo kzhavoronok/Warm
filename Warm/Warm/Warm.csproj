@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DBRepository\Warm.Repository.csproj" />
-    <ProjectReference Include="..\Models\Warm.Models.csproj" />
+    <ProjectReference Include="..\Warm.Models\Warm.Models.csproj" />
+    <ProjectReference Include="..\Warm.Repository\Warm.Repository.csproj" />
   </ItemGroup>
 
 </Project>

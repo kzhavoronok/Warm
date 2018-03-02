@@ -4,5 +4,9 @@
 
 /Warm/.vs/Warm/v15
 /Warm/obj
-/Warm/Models/obj
-/Warm/DBRepository/obj
+/Warm/Warm.Models/obj
+/Warm/Warm.Models/bin/Debug/netstandard2.0
+/Warm/Warm/bin/Debug/netcoreapp2.0
+/Warm/Warm.Repository/bin/Debug/netstandard2.0
+/Warm/Warm.Repository/obj
+/Warm/Warm/obj
