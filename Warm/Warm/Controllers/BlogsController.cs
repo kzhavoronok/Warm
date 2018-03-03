@@ -10,21 +10,21 @@ using Warm.Repository.Interfaces;
 
 namespace Warm.Controllers
 {
-    [Route("api/[controller]")]
-    public class BlogsController : Controller
-    {
-	    readonly IBlogRepository _blogRepository;
+	[Route("api/[controller]")]
+	public class BlogsController : Controller
+	{
+		readonly IBlogRepository _blogRepository;
 
-	    public BlogsController(IBlogRepository blogRepository)
-	    {
-		    _blogRepository = blogRepository;
-	    }
+		public BlogsController(IBlogRepository blogRepository)
+		{
+			_blogRepository = blogRepository;
+		}
 
-	    [Route("page")]
-	    [HttpGet]
-	    public async Task<Page<Post>> GetPosts(int pageIndex, string tag)
-	    {
-		    return await _blogRepository.GetPosts(pageIndex, 10, tag);
-	    }
-    }
+		[Route("page")]
+		[HttpGet]
+		public async Task<Page<Post>> GetPosts(int pageIndex, string tag)
+		{
+			return await _blogRepository.GetPosts(pageIndex, 10, tag);
+		}
+	}
 }
